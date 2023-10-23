@@ -1,24 +1,24 @@
 [mongodb]
 roboshop-us-dev-db-mongodb-01.joindevopsbkc.online
 
-[mysql]
-roboshop-us-dev-db-mysql-01.joindevopsbkc.online
-roboshop-us-dev-db-mysql-02.joindevopsbkc.online
+# [mysql]
+# roboshop-us-dev-db-mysql-01.joindevopsbkc.online
+# roboshop-us-dev-db-mysql-02.joindevopsbkc.online
 
-[cart]
-roboshop-in-prod-app-cart-01.joindevopsbkc.online
-roboshop-in-prod-app-cart-02.joindevopsbkc.online
-roboshop-in-prod-app-cart-03.joindevopsbkc.online
+# [cart]
+# roboshop-in-prod-app-cart-01.joindevopsbkc.online
+# roboshop-in-prod-app-cart-02.joindevopsbkc.online
+# roboshop-in-prod-app-cart-03.joindevopsbkc.online
 
-[user]
-roboshop-in-prod-app-user-01.joindevopsbkc.online
-roboshop-in-prod-app-user-02.joindevopsbkc.online
+# [user]
+# roboshop-in-prod-app-user-01.joindevopsbkc.online
+# roboshop-in-prod-app-user-02.joindevopsbkc.online
 
 
-[db:children]
-mongodb
-mysql
+# [db:children]
+# mongodb
+# mysql
 
-[app:children]
-cart
-user
+# [app:children]
+# cart
+# user
