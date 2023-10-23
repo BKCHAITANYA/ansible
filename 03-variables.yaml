@@ -1,6 +1,16 @@
 - name: variables in ansible
   hosts: mongodb
+  # this is play level variables, map
+  vars: 
+    COURSE: devops
+    TRAINER: Sivakuamr
+    DURATION: 110hrs
   tasks:
   - name: print hello world
     ansible.builtin.debug:
-      msg: "hello world" 
+      msg: "hello world, i am learning ansible" 
+  - name: print variables
+  # shell --> ${VAR_NAME} or $VAR_NAME
+  # ansible --> "{{VAR_NAME}}", it should be always in double quotes
+    ansible.builtin.debug:
+      msg: "hello, trainer is {{COURSE}}, duration is {{DURATION}} "
