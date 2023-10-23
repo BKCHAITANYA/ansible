@@ -1,0 +1,25 @@
+- name: bkc
+  dob: 01-01-01
+  address:
+    city: hyd
+    country: India
+    dno: 102
+  # this is list of country
+  addresses:
+  - type: perm
+    country: india
+  - type: current
+    country: us
+- name: ram
+  dob: 01-01-01
+  address:
+    city: hyd
+    country: India
+    dno: 102
+  # this is list of country
+  addresses:
+  - type: perm
+    country: india
+  - type: current
+    country: us
+
